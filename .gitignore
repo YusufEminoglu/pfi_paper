@@ -30,6 +30,7 @@ cache/
 *.jpg
 *.jpeg
 *.png
+!figures/*.png
 *.tif
 *.tiff
 *.gpkg
@@ -45,4 +46,3 @@ cache/
 Thumbs.db
 .idea/
 .vscode/
-

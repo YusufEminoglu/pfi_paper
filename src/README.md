@@ -1,12 +1,15 @@
 # Source Code
 
-Executable scripts are intentionally not included in this pre-publication repository shell.
+This directory contains the reusable Python utilities used by the public reproducibility scripts.
 
-Before public release, scripts will be reviewed and cleaned to ensure that they:
+The public source code focuses on the parts of the workflow that can be shared safely before the full data release:
 
-- Do not contain API keys, tokens, credentials, or private paths.
-- Do not redistribute restricted imagery or proprietary data.
-- Use professional English comments and documentation.
-- Reproduce the published analytical pipeline from permitted inputs.
-- Include clear configuration templates for local execution.
+- model-matrix construction,
+- PFI calculation,
+- interaction-term generation,
+- descriptive diagnostics,
+- VIF diagnostics,
+- transparent OLS baseline evaluation,
+- Monte Carlo sensitivity checks.
 
+The full private research pipeline also includes data acquisition, Google Street View downloading, Google Earth Engine extraction, semantic segmentation, raw figure production, and journal production scripts. Those components require additional cleaning before release because they interact with credentials, third-party imagery, large local files, and manuscript-production material.

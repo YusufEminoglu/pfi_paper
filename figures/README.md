@@ -1,6 +1,10 @@
 # Figures
 
-Final manuscript figures are not included in this pre-publication repository.
+This directory contains selected preview figures used to document the public companion repository.
 
-After publication, this directory may include figure-generation scripts, reduced-resolution preview graphics, or links to archived figure assets, depending on journal policy and licensing restrictions.
+Included:
 
+- `fig01_methodological_framework.png`: methodological workflow overview.
+- `fig02_study_area_sampling_design.png`: study area and sampling design.
+
+Additional final manuscript figures and production assets may be added after publication depending on journal policy and licensing restrictions.
