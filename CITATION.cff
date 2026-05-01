@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript when it becomes available."
+title: "Dual Friction Mapping of Urban Pedestrian Spaces"
+type: software
+authors:
+  - family-names: "Eminoğlu"
+    given-names: "Yusuf"
+    orcid: "https://orcid.org/0009-0005-6000-2934"
+  - family-names: "Çubukçu"
+    given-names: "Kemal Mert"
+    orcid: "https://orcid.org/0000-0003-3604-7014"
+repository-code: "https://github.com/YusufEminoglu/pfi_paper"
+abstract: "Public companion repository for a study modelling sidewalk-level pedestrian friction in Izmir, Türkiye using street-view visual analytics, geospatial indicators, and geographically neural network weighted regression."
+keywords:
+  - pedestrian friction
+  - street-view imagery
+  - urban analytics
+  - spatial modelling
+  - GNNWR
+  - Izmir
+  - Türkiye
+license: MIT
+date-released: "2026-05-02"
+

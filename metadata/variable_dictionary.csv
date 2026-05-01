@@ -1,0 +1,20 @@
+variable,group,level,description,public_release_status
+PFI,response,node,Pedestrian Friction Index used as the dependent variable,planned
+PCS,response_component,node,Physical Comfort Score derived from visible walking capacity and obstruction metrics,planned
+TFS,response_component,node,Thermal Friction Score derived from thermal exposure and visual environmental buffering,planned
+ECW_m,pedestrian_space,node,Effective clear walking width proxy derived from semantic segmentation,planned
+MDI,morphology,node,Morphological Density Index within the local node context,planned
+SCR,morphology,node,Street canyon ratio,planned
+FAR_node,morphology,node,Floor area ratio calculated within a local node buffer,planned
+H_std,morphology,node,Local building height standard deviation,planned
+BC,network,node,Betweenness centrality,planned
+JCS,network,node,Junction complexity score,planned
+DPark,accessibility,node,Distance to nearest park,planned
+SLOPE,terrain,node,Terrain slope,planned
+GAR,green_infrastructure,hex,Ground area ratio representing building coverage,planned
+TCH,green_infrastructure,node,Tree canopy height,planned
+ECW_m_x_BC,interaction,node,Interaction between effective clear walking width and network centrality,planned
+MDI_x_GAR,interaction,node,Interaction between morphological density and ground area ratio,planned
+BC_x_DPark,interaction,node,Interaction between network centrality and park distance,planned
+SLOPE_x_SCR,interaction,node,Interaction between terrain slope and street canyon ratio,planned
+

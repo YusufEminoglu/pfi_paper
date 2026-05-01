@@ -1,0 +1,48 @@
+# Local and secret files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+credentials*
+secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.venv_sam3/
+venv/
+env/
+
+# Data and large outputs
+data/raw/
+data/processed/
+outputs/
+paper/
+logs/
+cache/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+*.csv
+!metadata/*.csv
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

@@ -1,0 +1,22 @@
+# Core geospatial and scientific stack used by the reproducibility pipeline.
+# Exact environment files and executable scripts will be finalized after publication.
+geopandas
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+libpysal
+spreg
+mgwr
+osmnx
+shapely
+rasterio
+pyproj
+h3
+earthengine-api
+matplotlib
+seaborn
+tqdm
+python-dotenv
+

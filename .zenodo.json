@@ -1,0 +1,29 @@
+{
+  "title": "Dual Friction Mapping of Urban Pedestrian Spaces",
+  "creators": [
+    {
+      "name": "Eminoğlu, Yusuf",
+      "orcid": "0009-0005-6000-2934",
+      "affiliation": "Department of City and Regional Planning, Dokuz Eylül University; LUQAA - Lab of Urban Analytics and Quantitative Analysis"
+    },
+    {
+      "name": "Çubukçu, Kemal Mert",
+      "orcid": "0000-0003-3604-7014",
+      "affiliation": "Department of City and Regional Planning, Dokuz Eylül University; LUQAA - Lab of Urban Analytics and Quantitative Analysis"
+    }
+  ],
+  "description": "Public companion repository for a study modelling sidewalk-level pedestrian friction in Izmir, Türkiye using street-view visual analytics, geospatial indicators, and geographically neural network weighted regression.",
+  "keywords": [
+    "pedestrian friction",
+    "street-view imagery",
+    "urban analytics",
+    "spatial modelling",
+    "GNNWR",
+    "Izmir",
+    "Türkiye"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open"
+}
+

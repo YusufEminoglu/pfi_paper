@@ -1,0 +1,46 @@
+project: pfi_paper
+study_area: "Functional urban area of Izmir, Türkiye"
+status: "pre-publication public repository shell"
+stages:
+  - id: sampling_frame
+    name: "Hexagonal sampling frame"
+    description: "Generate H3 hexagons and apply eligibility filters."
+    public_release: "planned"
+  - id: morphological_clustering
+    name: "Morphological clustering"
+    description: "Cluster eligible hexagons using Gaussian mixture modelling."
+    public_release: "planned"
+  - id: spatial_sampling
+    name: "Two-stage spatial sampling"
+    description: "Select sampled hexagons with stratification and spatial spacing controls."
+    public_release: "planned"
+  - id: street_view_nodes
+    name: "Street-view node generation"
+    description: "Generate pedestrian-network sampling nodes and collect image metadata."
+    public_release: "metadata only"
+  - id: visual_metrics
+    name: "Street-view visual metrics"
+    description: "Extract semantic visual metrics from imagery using segmentation outputs."
+    public_release: "derived metrics only"
+  - id: geospatial_metrics
+    name: "Thermal, network, morphology, terrain, and park-access metrics"
+    description: "Integrate Google Earth Engine, OpenStreetMap, Urbanity, morphology, and park-access indicators."
+    public_release: "planned"
+  - id: response_variable
+    name: "PFI response construction"
+    description: "Construct the node-level Pedestrian Friction Index response variable."
+    public_release: "planned"
+  - id: modelling
+    name: "Spatial and nonlinear model benchmarking"
+    description: "Compare OLS, spatial lag, GWR, MGWR, and GNNWR models."
+    public_release: "planned"
+  - id: uncertainty
+    name: "Sensitivity and uncertainty analysis"
+    description: "Evaluate stability of PFI weights and node rankings."
+    public_release: "planned"
+restricted_materials:
+  - "Raw Google Street View images"
+  - "API keys and local credentials"
+  - "Local cache and log files"
+  - "Submitted manuscript files during peer review"
+
